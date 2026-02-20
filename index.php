@@ -70,7 +70,7 @@ foreach($fileContent as $content) {
                     echo "<address>{$data->endereco}</address>";
                     echo "<p>{$data->telefone}</p>";
                     echo "<p>{$data->horario}</p>";
-                    echo '<a href="{$data->link}">link</a>';
+                    echo "<a href='{$data->link}' target='_blanck'>link</a>";
                       
                 echo  '</div>';
 
