@@ -1,22 +1,139 @@
-nome;telefone;endereco;link;categoria;horario;			
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;			
-Indiana;35331257;Rua Davi Mussi;#;mercado;	08h - 17h.;			
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;			
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;			
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;			
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;	
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;
-Indiana;35331257;Rua Davi Mussi;#;farmacia;	08h - 17h.;
-Xereta;35331257;Rua Davi Mussi;#;mercado;	08h - 17h.;
+nome;telefone;endereco;link;categoria;horario
+RKM Sistemas;(33) 98800-0000;R. Exemplo, 123 - Centro, Novo Cruzeiro, MG; https://rkms.com.br/ ;Tecnologia;Seg a Sex: 08h – 18h
+Xereta Supermercados;(33)3533-5151;R. Davi Mussi, 159 - Novo Cruzeiro, MG, 39820-000; instagram.com/xeretanovocruzeiro/ ;Supermercado;Seg a Sex: 07h – 19h30 | Dom: 07h – 12h
+Amorim Supermercado;(33) 3533-1326;R. Pres. Bernardes - Novo Cruzeiro, MG, 39820-000; https://www.instagram.com/amorimsupermercadosnc/ ;Supermercado;Seg a Sex: 07h – 20h | Dom: 07h – 12h
+Supermercado Compre Bem;(33) 3533-1053;Av. Júlio Campos, 354 - Novo Cruzeiro, MG, 39820-000; https://www.instagram.com/comprebemnc/ ;Supermercado;Seg a Sex: 07h – 20h | Dom: 07h – 12h
+Chain Supermercado;(33) 99944-5225;R. Pres. Bernardes, 27 - Novo Cruzeiro, MG, 39820-000;https://www.instagram.com/chainsupermercado/;Supermercado;Seg a Sex: 07h – 19h | Dom: 07h – 12h
+Super Clara;(33) 3533-1411;Av. Júlio Campos, 462 - Novo Cruzeiro, MG, 39820-000;#;Supermercado;Seg a Sex: 07h – 19h30 | Dom: 07h – 12h
+Mega Forte;(33) 98890-4679;R. Jorge Chaim, 348-484 - Novo Cruzeiro, MG, 39820-000;#;Supermercado;Seg a Sex: 07h – 19h | Dom: 07h – 12h
+Farmácia Central;(33) 3533-1265;R. Pres. Bernardes, 44 - Centro, Novo Cruzeiro - MG, 39820-000;#;Farmácia;Seg a Sex: 07h – 21h | Dom: 07h – 12h
+Hiper Popular;(33) 3533-1351;Av. Júlio Campos, 380 - Novo Cruzeiro, MG, 39820-000;#;Farmácia;Seg a Sex: 07h – 22h30 | Dom: 07h – 12h
+Drogaria Matos;(33) 99734-1120;Av. Júlio Campos, 388 A - Centro, Novo Cruzeiro - MG, 39820-000;#;Farmácia;Seg a Sex: 07h – 21h | Dom: 07h – 12h
+Farmácia Indiana;0800 086 1666;R. David Mussi, 67 - Centro, Novo Cruzeiro - MG, 39820-000;#;Farmácia;Seg a Sex: 07h – 22h | Dom: 07h – 12h
+Drograria Farmais Novo Cruzeiro;(33) 3533-1351;Av. Júlio Campos - centro, Novo Cruzeiro - MG, 39820-000;#;Farmácia;Seg a Sex: 07h – 20h | Dom: 07h – 12h
+Drogaria Vital Brasil;(33) 3533-1337;Av. Júlio Campos, 254 - Centro, Novo Cruzeiro - MG, 39820-000;#;Farmácia;Seg a Sex: 07h – 20h | Dom: 07h – 12h
+Drogaria Nossa Senhora de Fátima;(33) 3533-1059;R. Pres. Bernardes, 105 - Centro, Novo Cruzeiro - MG, 39820-000;#;Farmácia;Seg a Sex: 07h – 19h | Dom: 07h – 12h
+Drogaria Preço Baixo;(33) 98731-7998;Av. Júlio Campos, 510 - Centro, Novo Cruzeiro - MG, 39820-000;#;Farmácia;Seg a Sex: 07h – 20h | Dom: 07h – 12h
+O Pastelão;(33) 3533-1876;Centro, R. Tancredo Neves, 26, Novo Cruzeiro - MG, 39820-000;#;Restaurante;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Restaurante Paladar;(33) 3533-1365;R. Joaquim Pereira, 88 - Novo Cruzeiro, MG, 39820-000;#;Restaurante;Seg a Sex: 07h – 14h | Dom: 07h – 12h
+Restaurante e Pizzaria Sabor de Minas;(33) 98710-3840;Av. Júlio Campos - Novo Cruzeiro, MG, 39820-000;#;Restaurante;Seg a Sex: 07h – 21h | Dom: 07h – 12h
+Restaurante e Lanchonete Cantinho Mineiro;(33) 99963-2833;R. Gualdêncio, 144 - Novo Cruzeiro, MG, 39820-000;#;Restaurante;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Loja do Povo;(33) 99923-9454;R. David Mussi, 45 - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Roupa;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Lojão do Brás;#;R. Davi Mussi, 133 - Novo Cruzeiro, MG, 39820-000;#;Loja de Roupa;Seg a Sex: 07h – 18h30 | Dom: 07h – 12h
+Loja Pague Menos;(33) 98873-2583;Av. Júlio Campos - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Roupa;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Luisa Letícia;(33) 98762-2617;Pca Dom José de Haas, 140 - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Roupa;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Lojas Sim Móveis e Eletro;(33) 98825-3565;Av. Pres. Bernardes, 123 - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Móveis;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+QBonita NC;(33) 98842-2240;Av. Júlio Campos, 465 - Novo Cruzeiro, MG, 39820-000;#;Loja de Roupa;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Loja Zema - Novo Cruzeiro;(33) 3533-5221;Av. Júlio Campos, 588 - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Departamento;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Marcela Calçados NC;(33) 98832-8445;Joaquim maravilha, rua do escadão, n 77 - centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Calçados;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Mil Materiais de Construção;(33) 98816-3517;Av. Júlio Campos, 368 - Novo Cruzeiro, MG, 39820-000;#;Loja de Materiais de Construção;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Kairós Modas;(33) 98711-4011;Travessa Antônio Ursino da Silva - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Roupa;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Marlene Modas;(33) 3533-1145;Av. Júlio Campos, 528 - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Roupa;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Tom Gerry;(33) 99701-2943;Av. Júlio Campos, 502 - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Roupa;Seg a Sex: 07h – 18h30 | Dom: 07h – 12h
+AF Modas;(33) 98897-8214;Av. Júlio Campos, 498 - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Roupa;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Loja Vivo;(33) 99708-4518;R. Pres. Bernardes, 105 - Centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Celulares;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Ws Informática Nc;(33) 99843-7165;R. Jacinto de Carvalho, 129 - LOJA 01 - Novo Cruzeiro, MG, 39820-000;#;Loja de Informática;Seg a Sex: 07h – 17h30 | Dom: 07h – 12h
+Bezerra Móveis;(33) 98716-2391;Rua Sargento Noraldino rosa, 323 - Novo Cruzeiro, MG, 39820-000;#;Loja de Móveis;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Eletro Móveis;(33) 98828-8673;R. David Mussi, 101 - Novo Cruzeiro, MG, 39820-000;#;Loja de Móveis;Seg a Sex: 07h – 17h | Dom: 07h – 12h
+Casaes Materiais de Construção;(33) 3533-1455;R. Jacinto de Carvalho, 90 - 6217 - centro, Novo Cruzeiro - MG, 39820-000;#;Loja de Materiais de Construção;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Barreiro Materiais de Construção;#;#;#;Loja de Materiais de Construção;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Gravatá Materiais de Construção;(33) 98726-4788;R. Joaquim Pereira, 115 - Novo Cruzeiro, MG, 39820-000;#;Loja de Materiais de Construção;Seg a Sex: 07h – 17h30 | Dom: 07h – 12h
+Dica Materiais de Construção;(33) 99853-5004;Av. Júlio Campos, 530 - Novo Cruzeiro, MG, 39820-000;#;Loja de Materiais de Construção;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Tip Top Materiais De Construção;(33) 98449-9755;Rua Joaquim Pereira, R. Cristo Rei, 213, Novo Cruzeiro - MG, 39820-000;#;Loja de Materiais de Construção;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Hotel Luar;(33) 98805-0319;Praça Dom José Haas, 152 - Centro, Novo Cruzeiro - MG, 39820-000;#;Hotel;Aberto 24h
+Hotel Trem Mineiro;(33) 98849-6002;Rua Joaquim Pereira, R. Cristo Rei, 179 - 2º andar, Novo Cruzeiro - MG, 39820-000;#;Hotel;Aberto 24h
+Tip Top Hotel;(33) 98463-2089;R. Francisco de Assis Mota, 430 - Cristo Rei, Novo Cruzeiro - MG, 39820-000;#;Hotel;Aberto 24h
+Hotel Nossa Senhora das Graças;(33) 3533-1239;Praça Dom José de Haas, 108 - Centro, Novo Cruzeiro - MG, 39820-000;#;Hotel;Aberto 24h
+Hotel Carvalho;(33) 3533-1627;Av. Júlio Campos, 258 - Novo Cruzeiro, MG, 39820-000;#;Hotel;Aberto 24h
+Escola Estadual Inácio Murta;(33) 3533-1537;Praça Sargento Noraldino Rosa, 435 - Centro, Novo Cruzeiro - MG, 39820-000;#;Escola;Seg a Sex: 07h – 18h | Dom: #
+Escola Estadual Eduardo Milton da Silva;(33) 3533-1307;Rua Jorge Chaim, Anastácio - Roque, Novo Cruzeiro - MG, 39820-000;#;Escola;Seg a Sex: 07h – 17h | Dom: #
+EE Dom José De Haas;(33) 3312-1160;R. Inácio Bahia, 369 - São Francisco, Novo Cruzeiro - MG, 39820-000;#;Escola;Seg a Sex: 07h – 17h | Dom: #
+Secretaria Municipal de Educação;(33) 99928-2643;Rua Gaudêncio Caminhas, nº48 - Centro, Novo Cruzeiro - MG, 39820-000;#;Órgão Público;Aberto 24h
+Escola Municipal Professora Maria Das Dores;#;Novo Cruzeiro, MG, 39820-000;#;Escola;Seg a Sex: 07h – 17h | Dom: #
+CNA Novo Cruzeiro;(33) 98805-3327;Av. Júlio Campos, 562 - CENTRO, Novo Cruzeiro - MG, 39820-000;#;Escola de Idiomas;Seg a Sex: 07h – 17h | Dom: #
+Secretaria Municipal de Assistência Social;#;Praça Dom José De Hass, 38 - Novo Cruzeiro, MG, 39820-000;#;Órgão Público;Seg a Sex: 07h – 17h | Dom: #
+Prefeitura Municipal de Novo Cruzeiro;(33) 3533-1200;Av. Júlio Campos, 172 - Centro, Novo Cruzeiro - MG, 39820-000;#;Órgão Público;Seg a Sex: 07h – 17h | Dom: #
+Secretaria de Saúde Municipal;(33) 99928-2643;Praça Sargento Noraldino Rosa, nº 02 - Centro, Novo Cruzeiro - MG, 39820-000;#;Órgão Público;Seg a Sex: 07h – 17h | Dom: #
+Mania do Açaí;(33) 98861-6745;Rua Joaquim Maravilha, 48 - Centro, Novo Cruzeiro - MG, 39820-000;#;Lanchonete;Seg a Sex: 14h – 22h | Dom: 14h – 22h
+Companhia do Lanche;(33) 98701-0402;Av. Júlio Campos, 516 - Centro, Novo Cruzeiro - MG, 39820-000;#;Lanchonete;Seg a Sex: 07h – 23h | Dom: 07h – 23h
+Mr Shake;(33) 99859-6938;R. Pres. Bernardes, 331 - centro, Novo Cruzeiro - MG, 39820-000;#;Lanchonete;Seg a Sex: 10h – 22h | Dom: 10h – 22h
+Sorveteria Amigo;(33) 99874-4831;Praça Sargento Noraldino - Novo Cruzeiro, MG, 39820-000;#;Sorveteria;Seg a Sex: 10h30 – 21h | Dom: 10h30 – 21h
+Pastelaria Central;(33) 98845-7373;R. Davi Mussi, 35 - CENTRO, Novo Cruzeiro - MG, 39820-000;#;Pastelaria;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Cantinho do Pastel;#;R. Pref. Júlio da Silva Campos, 424 - Novo Cruzeiro, MG, 39820-000;#;Pastelaria;Seg a Sex: 07h – 22h | Dom: 07h – 12h
+Padaria Arte Pães;(33) 98803-5210;R. Pres. Bernardes, 55 - Novo Cruzeiro, MG, 39820-000;#;Padaria;Seg a Sex: 07h – 21h | Dom: 07h – 12h
+Padaria Doce Sonho;(33) 99955-3926;Travessa Antônio ursino da Silva, 05 - Novo Cruzeiro, MG, 39820-000;#;Padaria;Seg a Sex: 07h – 20h | Dom: 07h – 12h
+Padaria & Confeitaria do Edinho;(33) 98854-0628;Av. Júlio Campos - Novo Cruzeiro, MG, 39820-000;#;Padaria;Seg a Sex: 07h – 19h | Dom: 07h – 12h
+Padaria Vic;(33) 3533-1253;Av. Júlio Campos, 328 - Centro, Novo Cruzeiro - MG, 39820-000;#;Padaria;Seg a Sex: 07h – 21h | Dom: 07h – 12h
+Quitandas da Ivone;(33) 98827-8112;Novo Cruzeiro, MG, 39820-000;#;Padaria;Seg a Sex: 07h – 17h30 | Dom: 07h – 12h
+Padaria Quitanda Mineira;#;R. Inácio Bahia - Novo Cruzeiro, MG, 39820-000;#;Padaria;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Café Tia Dete;(33) 98700-1361;R. Joaquim Maravilha, 157 - Novo Cruzeiro, MG, 39820-000;#;Café;Seg a Sex: 07h – 17h | Dom: 07h – 12h
+Pátio Sorveteria e Hamburgueria;(33) 98836-8907;LMG-678, 408 - Novo Cruzeiro, MG, 39820-000;#;Hamburgueria;Seg a Sex: 07h – 22h | Dom: 07h – 12h
+Lanchonete Livian;#;Av. Júlio Campos - Novo Cruzeiro, MG, 39820-000;#;Lanchonete;Seg a Sex: 07h – 20h | Dom: 07h – 12h
+Fast Burger Novo Cruzeiro;(33) 98433-5592;R. Pres. Bernardes - Centro, Novo Cruzeiro - MG, 39820-000;#;Lanchonete;Seg a Sex: 19h – 23h | Dom: 19h – 23h
+Sicoob Credipinho;(33) 3533-1680;Av. Júlio Campos, 621 - Centro, Novo Cruzeiro - MG, 39820-000;#;Banco;Seg a Sex: 08h – 16h | Dom: #
+LUMO Gráfica e Papelaria;(33) 98451-2400;R. Joaquim Maravilha, 52 - Centro, Novo Cruzeiro - MG, 39820-000;#;Gráfica;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Papelaria Criativa;(33) 98712-1232;R. José Milton Ramos, 507 - Novo Cruzeiro, MG, 39820-000;#;Papelaria;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Suffite Papelaria;(33) 98840-3539;R. Davi Mussi - Novo Cruzeiro, MG, 39820-000;#;Papelaria;Seg a Sex: 07h – 19h | Dom: 07h – 12h
+LUMO CENTER;(33) 98882-0644;R. Joaquim Maravilha, 52 - Centro, Novo Cruzeiro - MG, 39820-000;#;Comércio;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+ALTI Comunicação Visual;(33) 98875-0052;Praça do mercado - Tv Antônio ursino da Silva, 37 - Centro, Novo Cruzeiro - MG, 39820-000;#;Gráfica;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Bradesco;#;R. Professor João Aurélio, 06 - Centro, Novo Cruzeiro - MG, 39820-000;#;Banco;Seg a Sex: 10h – 14h | Dom: #
+BANCO DO BRASIL;#;R. Gualdêncio, 160 - Novo Cruzeiro, MG, 39820-000;#;Banco;Seg a Sex: 10h – 15h | Dom: #
+HOSPITAL SAO BENTO DE NOVO CRUZEIRO;(33) 3533-1934;PRACA FREI UBALDO, 47 - CENTRO, Novo Cruzeiro - MG, 39820-000;#;Hospital;Aberto 24 horas
+POLICLINICA MUNICIPAL;(33) 3533-1265;R. Jorge Chaim, 2 - Novo Cruzeiro, MG, 39820-000;#;Saúde;Seg a Sex: 07h – 17h | Dom: #
+Clínica Espaço Saúde;(33) 98712-5467;Av. Júlio Campos, 232 - Centro, Novo Cruzeiro - MG, 39820-000;#;Saúde;Seg a Sex: 07h – 17h | Dom: #
+CENTRO DE SAÚDE E LABORATÓRIO VIVER BEM;(33) 98878-8690;R. Jorge Chaim, 34 - Centro, Novo Cruzeiro - MG, 39820-000;#;Saúde;Seg a Sex: 07h – 17h | Dom: #
+Consultório Médico Dr. Carlos;(33) 3533-124;R. Frei Ubaldo, 29 - Novo Cruzeiro, MG, 39820-000;#;Saúde;Seg a Sex: 07h – 18h | Dom: #
+Dra. Amanda Pereira - Dermatologista;(33) 98878-8690;Rua Jorge Chain, 34 - Novo Cruzeiro, MG, 39820-000;#;Saúde;Seg a Sex: 07h – 17h | Dom: #
+Uniforte - Fernando Rocha Diagnósticos;(33) 98824-0138;R. Jorge Chaim, 252 - sala 1 - Novo Cruzeiro, MG, 39820-000;#;Saúde;Seg a Sex: 07h – 18h | Dom: #
+Radio Clinik;(33) 99997-4685;Av. Júlio Campos, 138 - CENTRO, Novo Cruzeiro - MG, 39820-000;#;Saúde;Seg a Sex: 07h – 17h30 | Dom: #
+Caps novo cruzeiro;#;R. Maria Cunha, 162 - Novo Cruzeiro, MG, 39820-000;#;Saúde;Seg a Sex: 07h – 17h | Dom: #
+UBS São Bento;(33) 3533-1359;R. São Francisco - Novo Cruzeiro, MG, 39820-000;#;Saúde;Seg a Sex: 07h – 17h | Dom: #
+UBS Mansur Rachid Lauar;(33) 3533-1403;R. Joaquim Pereira, 13 - Novo Cruzeiro, MG, 39820-000;#;Saúde;Seg a Sex: 07h – 17h | Dom: #
+UBS Lufa de Novo Cruzeiro;(33) 3533-1403;R. Principal - Novo Cruzeiro, MG, 39824-000;#;Saúde;Seg a Sex: 07h – 17h | Dom: #
+Dentista 24 horas - Dr Renan Viana;(33) 99989-2192;Av. Júlio Campos, 252 - Centro, Novo Cruzeiro - MG, 39820-000;#;Odontologia;Aberto 24 horas
+Consultório Odontológico Dra Roseane Novais;(33) 98741-3625;R. David Mussi, 101 - Novo Cruzeiro, MG, 39820-000;#;Odontologia;Seg a Sex: 07h – 18h | Dom: #
+Dra Gabriella Gonçalves;(33) 3533-1722;Av. Júlio Campos - Novo Cruzeiro, MG, 39820-000;#;Odontologia;Seg a Sex: 07h – 18h | Dom: #
+Consultório Odontológico Dra Caroline Japur;(33) 98838-5966;R. Jacinto de Carvalho, 429 - São Francisco, Novo Cruzeiro - MG, 39820-000;#;Odontologia;Seg a Sex: 07h – 18h30 | Dom: #
+Consultório Odontológico Dr Andre Luiz Oliveira;(33) 98899-1871;Praça Sargento Noraldino Rosa - Centro, Novo Cruzeiro - MG, 39820-000;#;Odontologia;Seg a Sex: 07h – 19h | Dom: #
+Consultório Odontológico Dra Raira Macedo;(31) 98929-4871;Rua Jorge Chain, 252 - Sala 2 - Novo Cruzeiro, MG, 39820-000;#;Odontologia;Seg a Sex: 07h – 17h | Dom: #
+Odontologia Casaes;(33) 98811-4115;Av. Júlio Campos, 486 - Centro, Novo Cruzeiro - MG, 39820-000;#;Odontologia;Seg a Sex: 07h – 18h | Dom: #
+Consultório Odontológico Dr Renato Ramos;#;Av. Júlio Campos, 562 - Novo Cruzeiro, MG, 39820-000;#;Odontologia;Seg a Sex: 07h – 18h | Dom: #
+Consultório Odontológico Dr Carlos e Dr Rodrigo;#;R. David Mussi, 83 - Novo Cruzeiro, MG, 39820-000;#;Odontologia;Seg a Sex: 07h – 18h | Dom: #
+Posto Novo Cruzeiro;(33) 98814-0595;R. Joaquim Pereira / R. Cristo Rei, 488, Novo Cruzeiro - MG;#;Posto de Combustível;Aberto 24 horas
+Posto Yoguedes Novo Cruzeiro;(33) 3532-9176;Av. Sargento Noraldino nº1 Centro, Novo Cruzeiro - MG;#;Posto de Combustível;Aberto 24 horas
+Auto Posto Triângulo;#;R. Dr. José Teobaldo Leal, 392 - Novo Cruzeiro, MG;#;Posto de Combustível;Seg a Dom: 06h – 22h
+Auto Posto Central;(33) 3533-1205;R. Pres. Bernardes, 14 - Novo Cruzeiro, MG;#;Posto de Combustível;Seg a Dom: 06h – 22h
+Posto Rede RC;(33) 98708-9274;R. Joaquim Pereira, 729 - Novo Cruzeiro, MG;#;Posto de Combustível;Seg a Dom: 06h – 22h
+Auto Posto São Bento;#;R. Jacinto de Carvalho, 426 - Novo Cruzeiro, MG;#;Posto de Combustível;Seg a Dom: 06h – 22h
+Juninho Auto Peças E Oficina;(33) 98837-3258;Tv. F. Launar, 28 - Novo Cruzeiro, MG;#;Oficina Mecânica;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Dino Auto Elétrica;(33) 98838-6113;R. Dr. José Teobaldo Leal - Novo Cruzeiro, MG;#;Oficina Mecânica;Seg a Sex: 07h – 17h | Dom: 07h – 12h
+MN CAR OFICINA;#;R. Gravata, 244 - Novo Cruzeiro, MG;#;Oficina Mecânica;Seg a Sex: 07h – 19h | Dom: 07h – 12h
+Motosan Oficina e Peças;(33) 98828-7752;MG-211, 28 - Novo Cruzeiro, MG;#;Oficina de Motos;Seg a Sex: 07h – 17h | Dom: 07h – 12h
+Br Motos;(33) 98876-9187;R. Dr. José Teobaldo Leal, 287 - Novo Cruzeiro, MG;#;Oficina de Motos;Seg a Sex: 07h – 19h | Dom: 07h – 12h
+Kolo Motos;(33) 98831-0044;R. Dr. José Teobaldo Leal - Novo Cruzeiro, MG;#;Oficina de Motos;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Rp Motos;(33) 99930-9835;Av. Júlio Campos, 435 - Novo Cruzeiro, MG;#;Oficina de Motos;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Andradiesel;(33) 99950-4744;R. Joaquim Pereira, 349 - Novo Cruzeiro, MG;#;Oficina de Caminhões;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+AUTO SOCORRO NOVO CRUZEIRO 24H;(33) 98842-6162;Rua Jose Biato - Vila Amaral, Novo Cruzeiro - MG;#;Reboque;Aberto 24 horas
+MT Lanternagem e Pintura;(33) 98893-9959;Rua Arcanjo Pereira, 48 - Triângulo, Novo Cruzeiro - MG;#;Lanternagem;Seg a Sex: 07h – 17h30 | Dom: 07h – 12h
+Lanternagem e Pintura Bessa;(33) 98882-4790;R. Dr. José Teobaldo Leal, 261 - Triangulo, Novo Cruzeiro - MG;#;Lanternagem;Seg a Sex: 07h – 17h30 | Dom: 07h – 12h
+Auto Peças Central;(33) 98820-0137;R. Joaquim Pereira, 52 - Novo Cruzeiro, MG;#;Auto Peças;Seg a Sex: 07h – 17h30 | Dom: 07h – 12h
+Pointcar Vistoria Veicular;#;Estrada Novo Cruzeiro, 60 - Novilhona, Novo Cruzeiro - MG;#;Vistoria;Seg a Sex: 07h – 17h | Dom: #
+Quartel da Polícia Militar de Minas Gerais;#;R. David Mussi, 228 - Novo Cruzeiro, MG, 39820-000;#;Segurança;Aberto 24 horas
+Polícia Civil;(33) 3533-1412;Novo Cruzeiro - MG, 39820-000;#;Segurança;Seg a Sex: 08h – 18h
+Cras Novo Cruzeiro;#;R. Jorge Chaim, 415 - Novo Cruzeiro, MG, 39820-000;#;Repartição Pública;Seg a Sex: 07h – 17h | Dom: #
+Sala Mineira do Empreendedor;(33) 99878-5897;R. Nice Maravilha, 53 - Centro, Novo Cruzeiro - MG;#;Repartição Pública;Seg a Sex: 07h – 17h | Dom: #
+Sindicato dos Trabalhadores Rurais;(33) 98828-3613;R. Joaquim Pereira, 163 - Novo Cruzeiro, MG;#;Sindicato;Seg a Sex: 07h – 15h | Dom: #
+Funerária São Geraldo;(33) 3533-1233;Pc, R. Frei Ubaldo, 156, Novo Cruzeiro - MG;#;Serviços Funerários;Aberto 24 horas
+Funerária Novo Cruzeiro;(33) 99873-3413;Novo Cruzeiro, MG, 39820-000;#;Serviços Funerários;Aberto 24 horas
+Funerária Santa Fé;(33) 3533-5023;Pc Frei Ubaldo, 136 - Novo Cruzeiro, MG;#;Serviços Funerários;Aberto 24 horas
+SARITUR - Rodoviária;(33) 99956-3108;R. Pres. Bernardes, 267 - Centro, Novo Cruzeiro - MG;#;Transporte;Seg a Dom: 07h – 19h
+ITA INTERNET FIBRA;0800 658 3656;R. Pres. Bernardes, 311 - Centro, Novo Cruzeiro - MG;#;Internet;Seg a Sex: 07h – 18h | Dom: #
+GRX TELECOM;(33) 99934-1784;Rua Santa Chácara, 144 - Centro, Novo Cruzeiro - MG;#;Internet;Seg a Sex: 07h – 18h | Dom: #
+Bizz Internet;0800 740 4772;R. Joaquim Maravilha, n° 32 - Centro, Novo Cruzeiro - MG;#;Internet;Seg a Sex: 07h – 18h | Dom: #
+Software Informática;(33) 3533-1922;R. Davi Mussi, 253 - Centro, Novo Cruzeiro - MG;#;Informática;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Digital Antenas;(33) 98709-5157;R. Pres. Bernardes, 175 - Centro, Novo Cruzeiro - MG;#;Serviços;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Limp + Higienização de Estofados;(33) 99917-2116;R. Tancredo Neves, 265 - Sao bento, Novo Cruzeiro - MG;#;Serviços;Seg a Sex: 07h – 17h | Dom: 07h – 12h
+CHAVEIRO NOVO CRUZEIRO;(33) 98837-6116;R. Cristo Rei, 61, Novo Cruzeiro - MG;#;Serviços;Aberto 24 horas
+Elypê Clinic;(33) 98465-2967;Av. Júlio Campos, 594 - Centro, Novo Cruzeiro - MG;#;Salão de Beleza;Seg a Sex: 07h – 18h | Dom: #
+JR CONSTRUÇÕES LTDA;(33) 3533-1570;R. Antônio Esteves Lima, 205 - São Bento, Novo Cruzeiro - MG;#;Construtora;Seg a Sex: 07h – 18h | Dom: 07h – 12h
+Preconst;(33) 3533-1351;R. Inácio Bahia, 352 - Novo Cruzeiro, MG;#;Construtora;Seg a Sex: 07h – 18h | Dom: #
