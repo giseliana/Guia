@@ -140,13 +140,18 @@ header {
     margin-top: auto;
     padding-top: 15px;
     text-align: center;
+    border-radius: 100px;
+    width: 150px;
+    background-color: #d3d8e3;
+    border: 1px solid #333;
+    text-decoration: none;
 }
 
 .comercio:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
    
-    zoom: 1.02;
+    zoom: 1.05;
 }
 
 .comercio h4 {
