@@ -18,11 +18,11 @@ header {
 }
 
 .cabecalho {
-
+    padding: auto;
     text-shadow: 2px 2px 1px #333;
     color: white;
     background-color: #3c4f78;
-    height: 100px;
+    height: auto;
     margin-bottom: 10px;
     border-bottom: black solid 1px;
     background: linear-gradient(135deg, #3e5c76, #2f3e57);
@@ -33,13 +33,15 @@ header {
 /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); */
 
 .cabecalho h1 {
-    padding: 10px;
+   
+    padding: 15px;
     text-align: center;
     font-size: 36px;
     letter-spacing: 1px;
 }
 
 .cabecalho h3 {
+   
     padding: auto;
     text-align: center;
     margin-bottom: 15px;
