@@ -96,6 +96,7 @@ header {
     background-color: #3e5c76;
     color: white;
     border-color: #3e5c76;
+    border: #f4f6f8 solid 1px;
 }
 
 .Comercios {
@@ -137,21 +138,27 @@ header {
 }
 
 .comercio a {
-    margin-top: auto;
-    padding-top: 15px;
+ 
+    display: inline-block; 
     text-align: center;
-    border-radius: 100px;
-    width: 150px;
-    background-color: #d3d8e3;
-    border: 1px solid #333;
+    color: #333; 
     text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    background-color: #d3d8e3;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid #333;
+    margin-top: auto;
+    align-self: flex-start; 
+    text-decoration: underline;
+    
+   
 }
 
 .comercio:hover {
-    transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-   
-    zoom: 1.05;
+    zoom: 1.02;
 }
 
 .comercio h4 {
@@ -180,9 +187,15 @@ header {
     font-style: italic;
     font-size: 14px;
     line-height: 1.4;
+    margin-bottom: 10px;
 }
 
-
+.comercio a:hover {
+    background-color: #3e5c76;
+    color: white;
+    border-color: #3e5c76;
+    border: #f4f6f8 solid 1px;
+}
 .rodape {
     background-color: #43516b;
     /* bottom: 0;
