@@ -33,7 +33,16 @@ foreach($fileContent as $content) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?v=<?php echo rand() ?>"
+    <link rel="stylesheet" href="style.css?v=<?php echo rand() ?>">
+    <!-- <link rel="shortcut icon" href="icon2.ico" type="image/x-icon" > -->
+    
+    <!-- <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" /> -->
+    <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+    <link rel="shortcut icon" href="icon2.ico" />
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Guia NC" />
+    <link rel="manifest" href="/site.webmanifest" />
+     -->
     <title>Guia local - Novo Cruzeiro </title>
 </head>
 
