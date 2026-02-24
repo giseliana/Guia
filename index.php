@@ -78,8 +78,12 @@ foreach($fileContent as $content) {
                     echo "<address>{$data->endereco}</address>";
                     echo "<p>{$data->telefone}</p>";
                     echo "<p>{$data->horario}</p>";
-                    echo "<a href='{$data->link}' target='_blanck'>link</a>";
-                      
+
+                    if ($data->link != '#'){
+                    echo "<a href='{$data->link}' target='_blank'>link</a>";
+                    }else{
+                        
+                    }
                 echo  '</div>';
 
             }      
@@ -111,10 +115,8 @@ foreach($fileContent as $content) {
         </div>
 
         <div class = "rodape" >
-            <
-            p > ©2026 Guia Local - Novo Cruzeiro.Todos os direitos reservados. < /p> <
-            /div> <
-            /body>
+            <p  ©2026 Guia Local - Novo Cruzeiro.Todos os direitos reservados./> 
+            </div> 
+        </body>
 
-            <
-            /html>
+            </html>
