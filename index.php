@@ -82,7 +82,7 @@ foreach($fileContent as $content) {
                     if ($data->link != '#'){
                     echo "<a href='{$data->link}' target='_blank'>link</a>";
                     }else{
-                        
+
                     }
                 echo  '</div>';
 
@@ -115,7 +115,7 @@ foreach($fileContent as $content) {
         </div>
 
         <div class = "rodape" >
-            <p  ©2026 Guia Local - Novo Cruzeiro.Todos os direitos reservados./> 
+                <p>  ©2026 Guia Local - Novo Cruzeiro.Todos os direitos reservados.</p> 
             </div> 
         </body>
 
