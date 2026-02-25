@@ -1,28 +1,27 @@
-<?php
+<?php 
+echo "Olá mundo";
 
-use app\CSVConverter;
+$db = new PDO('sqlite:' . __DIR__ . '/estabelecimentos.db');
 
-require __DIR__ .'/Converter.php';
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
-$comercios = [];
+// Filtro por tipo
+$tipoFiltro = $_GET['categoria'] ?? '';
 
-$fileContent = file('comercio.csv');
+$tipos = ['Farmácia', 'Supermercado','Postos','Alimentação',
+'Saúde','Serviços','Compras','Casa e Construção','Beleza e Bem-estar','Educação','Lazer e Turismo'];
 
-if (count($fileContent) == 0) {
-    exit('Arquivo vazio');
+
+if ($tipoFiltro && in_array($tipoFiltro, $tipos)) {
+    $stmt = $db->prepare("SELECT * FROM estabelecimentos WHERE categoria = :categoria ORDER BY nome");
+    $stmt->execute([':categoria' => $tipoFiltro]);
+    $estabelecimentos = $stmt->fetchAll();
+} else {
+    $estabelecimentos = $db->query("SELECT * FROM estabelecimentos ORDER BY categoria, nome")->fetchAll();
 }
 
-foreach($fileContent as $content) {
-    $linha = explode(';', $content);
-    $comercios[] = new CSVConverter(
-        nome:$linha[0],
-        categoria:$linha[4], 
-        telefone:$linha[1], 
-        endereco:$linha[2], 
-        link: trim($linha[3]), 
-        horario: trim($linha[5])
-    );
-}
+
 
 
 ?>
@@ -44,75 +43,57 @@ foreach($fileContent as $content) {
 
         <h3>Comércios da cidade</h3>
     </div>
-    <div class="parte-categoria">
+   
+    <div class="categoria">
+         <input type="text" name="pesquisa" placeholder="Pesquise Nomes:" >
         <h3>Categorias:</h3>
-        <div class="categoria">
-            <div class="categoria">
-    <input type="submit" class="btn-filtro" value="Todos">
-    <input type="submit" class="btn-filtro" value="Supermercados">
-    <input type="submit" class="btn-filtro" value="Farmácias">
-    <input type="submit" class="btn-filtro" value="Postos">
-    <input type="submit" class="btn-filtro" value="Alimentação">
-    <input type="submit" class="btn-filtro" value="Saúde">
-    <input type="submit" class="btn-filtro" value="Serviços">
-    <input type="submit" class="btn-filtro" value="Compras">
-    <input type="submit" class="btn-filtro" value="Casa e Construção">
-    <input type="submit" class="btn-filtro" value="Beleza e Bem-estar">
-    <input type="submit" class="btn-filtro" value="Educação">
-    <input type="submit" class="btn-filtro" value="Lazer e Turismo">
+        
+            <div class="parte-categoria">
+                
+                        <a href="?" <?php echo !$tipoFiltro ? 'class="ativo"' : '' ?>>Todos</a>
+                        <?php foreach ($tipos as $categoria): ?>
+                            <a href="?categoria=<?php echo urlencode($categoria); ?>" <?php echo $tipoFiltro === $categoria ? 'class="ativo"' : ''; ?>>
+                                <?php echo $categoria; ?>
+                            </a>
+                    <?php endforeach ?>
+                
 </div>
-        </div>
+
+   
+
     </div>
 
     <div class="Comercios">
 
-        <?php
-            
-        foreach ($comercios as $chave => $data) {
-            if ($chave != 0) {
-                
-              echo '<div class="comercio" data-categoria="'.trim($data->categoria).'">';
-                    echo "<h2>{$data->nome}</h2>";
-                    echo "<h4>{$data->categoria}</h4>";
-                    echo '<hr id="row">';
-                    echo "<address>{$data->endereco}</address>";
-                    echo "<p>{$data->telefone}</p>";
-                    echo "<p>{$data->horario}</p>";
+<?php if (empty($estabelecimentos)): ?>
+        <p class="vazio">Nenhum estabelecimento encontrado.</p>
+    <?php else: ?>
+        <?php foreach ($estabelecimentos as $estabelecimento): ?>
+            <div class="card">
+                <div class="card-header">
+                    <h2><?php echo $estabelecimento['nome']; ?></h2>
+                </div>
+                <span class="badge"><?php echo $estabelecimento['categoria']; ?></span>
 
-                    if ($data->link != '#'){
-                    echo "<a href='{$data->link}' target='_blank'>link</a>";
-                    }else{
+                <hr>
+              
+                <p class="info"><?php echo $estabelecimento['endereco']; ?></p>
+                <?php if ($estabelecimento['telefone']): ?>
+                    <p class="info"><?php echo $estabelecimento['telefone']; ?></p>
+                <?php endif ?>
+                <?php if ($estabelecimento['horario']): ?>
+                    <p class="info"><?php echo $estabelecimento['horario']; ?></p>
+                <?php endif ?>
+                 <?php if ($estabelecimento['link'] != '#'): ?>
+                    <a class="info" href="<?php echo $estabelecimento['link']; ?>">Acesse</a>
+                <?php endif ?>
+            </div>
+        <?php endforeach ?>
+    <?php endif ?>
 
-                    }
-                echo  '</div>';
 
-            }      
 
-        }
-
-    ?>
-
-        <script>
-    const botoes = document.querySelectorAll('.btn-filtro');
-    const cards = document.querySelectorAll('.comercio');
-
-    botoes.forEach(botao => {
-        botao.addEventListener('click', () => {
-            const categoriaSelecionada = botao.value;
-
-            cards.forEach(card => {
-                const categoriaCard = card.getAttribute('data-categoria');
-
-                if (categoriaSelecionada === 'Todos' || categoriaSelecionada === categoriaCard) {
-                    card.style.display = 'block'; // Mostra o card
-                } else {
-                    card.style.display = 'none';  // Esconde o card
-                }
-            });
-        });
-    });
-</script>
-        </div>
+</div>
 
         <div class = "rodape" >
                 <p>  ©2026 Guia Local - Novo Cruzeiro.Todos os direitos reservados.</p> 
