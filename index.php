@@ -1,5 +1,5 @@
 <?php 
-echo "Olá mundo";
+
 
 $db = new PDO('sqlite:' . __DIR__ . '/estabelecimentos.db');
 
