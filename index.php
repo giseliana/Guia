@@ -37,6 +37,27 @@ if ($tipoFiltro && in_array($tipoFiltro, $tipos)) {
     <title>Guia local - Novo Cruzeiro </title>
 </head>
 
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const input = document.getElementById("pesquisa");
+            const cards = document.querySelectorAll(".card");
+
+            input.addEventListener("input", function () {
+                const termo = input.value.toLowerCase();
+
+                cards.forEach(card => {
+                    const textoCard = card.innerText.toLowerCase();
+
+                    if (textoCard.includes(termo)) {
+                        card.style.display = "block";
+                    } else {
+                        card.style.display = "none";
+                    }
+                });
+            });
+        });
+        </script>
+
 <body>
     <div class="cabecalho">
         <h1>Guia Local - Novo Cruzeiro</h1>
@@ -45,7 +66,7 @@ if ($tipoFiltro && in_array($tipoFiltro, $tipos)) {
     </div>
    
     <div class="categoria">
-         <input type="text" name="pesquisa" placeholder="Pesquise Nomes:" >
+         <input type="text" id="pesquisa" placeholder="Pesquisar" >
         <h3>Categorias:</h3>
         
             <div class="parte-categoria">
@@ -85,7 +106,7 @@ if ($tipoFiltro && in_array($tipoFiltro, $tipos)) {
                     <p class="info"><?php echo $estabelecimento['horario']; ?></p>
                 <?php endif ?>
                  <?php if ($estabelecimento['link'] != '#'): ?>
-                    <a class="info" href="<?php echo $estabelecimento['link']; ?>">Acesse</a>
+                    <a class="info" href="<?php echo $estabelecimento['link']; ?>" target="_blank">Acesse</a>
                 <?php endif ?>
             </div>
         <?php endforeach ?>

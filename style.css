@@ -202,12 +202,14 @@ body {
     margin-bottom: 10px;
 }
 
-.card a:hover {
+.card a:hover, a.ativo {
     background-color: #3e5c76;
     color: white;
     border-color: #3e5c76;
     border: #f4f6f8 solid 1px;
 }
+
+
 
 .rodape {
     background-color: #43516b;
